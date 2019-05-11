@@ -1,0 +1,11 @@
+num=int(input("Enter a Four Four Digit Number : "))
+r=0
+ a=num%10
+num=num//10
+b=num%10
+num=num//10
+c=num%10
+d=num//10
+n=r*10+a
+n=n*10+d
+print("Output is :",n)
